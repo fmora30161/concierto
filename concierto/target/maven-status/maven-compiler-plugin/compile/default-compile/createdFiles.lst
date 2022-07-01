@@ -1,0 +1,10 @@
+concierto\demo\service\IArtistaService.class
+concierto\demo\service\ILugarService.class
+concierto\demo\repository\LugarRepository.class
+concierto\demo\controller\ArtistaController.class
+concierto\demo\service\ArtistaService.class
+concierto\demo\ConciertoApplication.class
+concierto\demo\entity\Lugar.class
+concierto\demo\service\LugarService.class
+concierto\demo\repository\ArtistaRepository.class
+concierto\demo\entity\Artista.class

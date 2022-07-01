@@ -1,0 +1,113 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 30, 2022, 5:44:47 PM
+    Author     : Fabiola Mora
+*/
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+
+div{
+    height: 100vh;
+    width: 100%;
+    background-image: url(.../image/FONDO.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+nav{
+    
+}
+
+/* 
+    El sig es un selector universal
+*/
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Joan', serif;
+}
+.container{
+    height:140vh;
+    width:100%;
+    background-image: url(../image/FONDO.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar{
+    height:20vh;
+    width:100%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.logo{
+    width:100px;
+    cursor: pointer;
+    display: flex;
+}
+
+.miImagen{
+    height:50%;
+    position: absolute;  
+    bottom: 200px;
+    right: 110px;
+    
+}
+
+/* 
+    nav sin punto todas las etiquetas nav van a hacer cambios
+*/
+nav{
+    /*que tanto crece en contenedor, relacion a 1 con flex=1*/
+    flex:1;
+    padding-left: 60px;
+}
+
+/* para que me salga navbar en linea horizontal y no vertical*/
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: aqua;
+}
+
+.content p{
+    font-size: 20px;
+    color: white;
+}
+
+.video{
+    height:20%;
+    position: absolute;  
+    bottom: 200px;
+    
+}
+
